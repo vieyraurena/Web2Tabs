@@ -6,6 +6,10 @@ Tabs
 
 Install node.js https://nodejs.org/en/ then install dependencies node
 
+```npm install```
+
+or
+
 ```npm i```
 
 #### Usage
