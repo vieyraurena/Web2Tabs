@@ -1,0 +1,44 @@
+.tabs-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+.tabs-tablist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  li{
+    float: left; 
+  }
+}
+
+.tabs-tablist-item{
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: $color-desactivado;
+  font-size: 30px;
+  color: $primary-color;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tabs-content{
+  background-color: $primary-color;
+  padding: 50px 30px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+
+  h2 {
+    color: $font-color;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    color: $font-color;
+    line-height: 30px;
+    font-size: 20px;
+  }
+}
