@@ -1,0 +1,87 @@
+/*CONFIGURACIONES*/
+/* Open sans font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/*PARTIALS*/
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif; }
+
+.main-container {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.header {
+  width: 100%;
+  background-color: #e26d03; }
+  .header h3 {
+    width: 300px;
+    padding: 30px 0 30px 40px;
+    color: #ffffff;
+    font-size: 25px; }
+    .header h3::after {
+      padding-left: 20px;
+      content: "|";
+      color: #ffffff; }
+
+.logo {
+  margin-left: 760px; }
+
+.tabs-container {
+  width: 800px;
+  margin: 0 auto; }
+
+.tabs-tablist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; }
+  .tabs-tablist li {
+    float: left; }
+
+.tabs-tablist-item {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #ffca9f;
+  font-size: 30px;
+  color: #e26d03;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.tabs-content {
+  background-color: #e26d03;
+  padding: 50px 30px;
+  margin-top: 10px;
+  margin-bottom: 80px; }
+  .tabs-content h2 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 30px; }
+  .tabs-content p {
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 20px; }
+
+.footer {
+  width: 100%;
+  background-color: #e26d03;
+  position: relative;
+  padding: 60px 0 20px 0;
+  margin-bottom: 50px; }
+  .footer img {
+    width: 70px;
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+/* Estado (clases asignadas por Javascript) */
+.js-active {
+  background-color: #e26d03;
+  color: #ffffff; }
+
+.js-content-hidden {
+  display: none; }
